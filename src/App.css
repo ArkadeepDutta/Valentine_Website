@@ -1,0 +1,129 @@
+@keyframes heartBeat {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Stops scrollbars from appearing when button moves */
+  position: relative;
+}
+
+.question-text {
+  color: #ff1493;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  margin-bottom: 20px;
+  font-weight: bold;
+  z-index: 5;
+}
+
+.question-text2 {
+  color: #ff1493;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  margin-bottom: 10px;
+  font-weight: bold;
+  z-index: 5;
+}
+
+.card-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 15px 35px rgba(255, 105, 180, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 400px;
+  animation: heartBeat 3s infinite ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+.gif-wrapper img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.gif-wrapper2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gif-wrapper2 img {
+  width: 250px; /* Slightly larger for the success screen */
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.poem-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.poem-line {
+  color: #ff1493;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0; /* Removes default browser spacing */
+  line-height: 1.2; /* Tightens the space between words/lines */
+  font-style: italic;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.yes-button {
+  background-color: #ff1493;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.no-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  white-space: nowrap;
+}
+
+.success-text {
+  color: #ff1493;
+  font-size: 1.4rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.success-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
