@@ -1,4 +1,4 @@
-# 💖 Valentine Invitation 💖
+# 💖 Valentine Website 💖
 
 A cute, interactive "Will you be my Valentine?" website built with **React** and **Vite**. This project features a playful "No" button that dodges the cursor, a "Yes" button that grows with every rejection, and a heartfelt Bengali poem upon acceptance.
 
