@@ -1,16 +1,40 @@
-# React + Vite
+# 💖 Valentine Invitation 💖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cute, interactive "Will you be my Valentine?" website built with **React** and **Vite**. This project features a playful "No" button that dodges the cursor, a "Yes" button that grows with every rejection, and a heartfelt Bengali poem upon acceptance.
 
-Currently, two official plugins are available:
+**Live Demo** : https://valentinevirushehehe.vercel.app/
+## ✨ Features
+* **Persistent Buttons**: A "Yes" button that gets bigger every time the user says "No" (making it eventually impossible to ignore!).
+* **Dodging "No" Button**: The "No" button jumps to a random safe location on the screen whenever hovered or clicked.
+* **Celebration Effects**: Confetti heart explosions using `canvas-confetti` when the user clicks "Yes".
+* **Success Screen**: A cute looping GIF and a heartfelt poem in Bengali to seal the deal.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+* **Framework**: [React](https://react.dev/)
+* **Build Tool**: [Vite](https://vitejs.dev/)
+* **Styling**: Plain CSS with custom animations.
+* **Library**: [Canvas Confetti](https://www.npmjs.com/package/canvas-confetti) for the heart rain.
 
-## React Compiler
+## 🛠️ How to Run Locally
+1.  **Clone the repo**:
+    ```bash
+    git clone [https://github.com/ArkadeepDutta/Valentine_Website.git](https://github.com/ArkadeepDutta/Valentine_Website.git)
+    ```
+2.  **Navigate to the folder**:
+    ```bash
+    cd Valentine_Website
+    ```
+3.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+4.  **Start the development server**:
+    ```bash
+    npm run dev
+    ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📜 The Poem
+> *Chander moto hashi tomar, chokhe tarar alo,* > *Tomar moner rajproshade ektu jayega pele bhalo.* > *Tomar rupe matal hawa, mon je disha haray,* > *Dekhe tomay surjomukhi-o chokh ferate doray.*
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+Made with ❤️ by [Arkadeep Dutta](https://github.com/ArkadeepDutta)
